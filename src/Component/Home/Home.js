@@ -41,8 +41,11 @@ const Home = () => {
         limitedAlert.style.display = 'none'
     }
     return (
-        <> <h1 className='text-center py-3 mt-5 fw-bold'>Laptop Store</h1>
-            <h3 className='text-center mb-4'>Choose 4 Item</h3>
+        <div> 
+            <div class= " bg-success p-5 text-white text-center header">
+                <h1 className='text-center py-3 mt-5 fw-bold'>Laptop Store</h1>
+              <h3 className='text-center mb-4'>Choose 4 Item</h3>
+           </div>
             <div className='container box'>
 
                 <div className='product-container'>
@@ -80,7 +83,7 @@ const Home = () => {
             <div className='container my-5'>
             <Bonus />
             </div>
-        </>
+        </div>
     )
 }
 

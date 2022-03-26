@@ -11,7 +11,7 @@ function Card(props) {
                 <div className="card-body">
                     <h5 className="card-title">{name}</h5>
                     <p className="card-text">Price : $ {price}</p>
-                    <button onClick={() => props.handler(props.product)} className="btn btn-outline-primary">Add To Cart <i className="fa-solid fa-cart-plus ms-2"></i></button>
+                    <button onClick={() => props.handler(props.product)} className="btn btn-outline-warning text-white bg-primary">Add To Cart <i className="fa-solid fa-cart-plus ms-2"></i></button>
                 </div>
             </div>
           
